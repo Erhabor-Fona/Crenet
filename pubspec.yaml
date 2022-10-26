@@ -1,0 +1,56 @@
+name: crenet_assesment
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^2.3.2
+  flutter_svg: ^1.0.3
+  flutter_svg_provider: ^1.0.3
+  flutter_screenutil: ^5.1.1
+  auto_size_text: ^3.0.0
+  chewie: ^1.3.5
+  video_player: ^2.4.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/icons/
+
+
+
+  fonts:
+    - family: proximaNovaSoft
+      fonts:
+        - asset: fonts/proximaNovaSoft.ttf
+        - asset: fonts/proximaNovaSoft.ttf
+          style: italic
+    - family: MyFlutterApp
+      fonts:
+        - asset: fonts/MyFlutterApp.ttf
+        - asset: fonts/MyFlutterApp.ttf
+          weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
